@@ -59,6 +59,7 @@ header{
     margin-left: 390px;
 }
 /* main section style */
+/* action */
 .action{
     display: flex;
     justify-content: center;
@@ -74,10 +75,38 @@ header{
 .act-des{
     font-size: 24px;
     font-weight: 400;
-    color: #252432;
+    color: #555555;
 }
 .act-img{
     height: 328px;
     width: 403px;
     border-radius: 48px;
+}
+/* user */
+.users{
+    background-color: #e7e6ff;
+    border-radius: 24px;
+    margin: 0 160px 137px 140px;
+    padding: 50px 142px 50px 142px;
+}
+.users-title{
+    text-align: center;
+    font-size: 38px;
+    font-weight: bold;
+    color: #252432;
+}
+.users-contain{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.users-num{
+    font-size: 80px;
+    font-weight: bold;
+    color: #4E47FF;
+}
+.users-des{
+    font-size: 20px;
+    font-weight: 400;
+    color: #555555;
 }
