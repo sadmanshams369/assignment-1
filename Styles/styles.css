@@ -8,6 +8,7 @@ header{
     background-repeat: no-repeat;
     width: 100%;
 }
+/* navigation */
 .nav-list{
     list-style: none;
 }
@@ -44,6 +45,7 @@ header{
   border-radius: 5px;
   padding: 12px 36px;
 }
+/* banner */
 .banner{
     margin: 150px 267px 152px 267px;
 }
@@ -55,4 +57,27 @@ header{
 }
 .ban-btn{
     margin-left: 390px;
+}
+/* main section style */
+.action{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 220px;
+    margin: 116px 160px 116px 140px;
+}
+.act-title{
+    font-size: 42px;
+    font-weight: bold;
+    color: #252432;
+}
+.act-des{
+    font-size: 24px;
+    font-weight: 400;
+    color: #252432;
+}
+.act-img{
+    height: 328px;
+    width: 403px;
+    border-radius: 48px;
 }
