@@ -158,3 +158,44 @@ header{
     display: flex;
     justify-content: space-around;
 }
+/* form */
+.form-title{
+    font-size: 97px;
+    font-weight: bold;
+    color: #000000;
+}
+label, .form-btn{
+    display: block;
+    margin-bottom: 10px;
+}
+input{
+    margin-bottom: 20px;
+    background-color: #FFFFFF;
+    height: 40px;
+    width: 350px;
+    border-radius: 5px;
+    border: none;
+}
+textarea{
+    margin-bottom: 20px;
+    background-color: #FFFFFF;
+    border-radius: 5px;
+    border: none;
+}
+.form-btn{
+    width: 350px;
+}
+.user-form{
+    display: flex;
+    height: 632px;
+    width: 1140px;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: 150px;
+    margin-top: 100px;
+    background-color: #eceff8;
+    border-radius: 15px;
+    box-shadow: 10px 10px 10px 10px #D6DDED;
+    padding-left: 15px;
+    padding-right: 15px;
+}
