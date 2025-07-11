@@ -158,6 +158,34 @@ header{
     display: flex;
     justify-content: space-around;
 }
+/* extra */
+.extra{
+    height: 696px;
+    width: 1140px;
+    margin-left: 151px;
+    margin-top: 137px;
+}
+.ex-title{
+    font-size: 50px;
+    font-weight: bold;
+    color: #000000;
+    text-align: center;
+}
+.ex-desc{
+    font-size: 16px;
+    font-weight: 400;
+    color: #2c2b2b;
+    text-align: center;
+}
+.ex-btn{
+    margin-left: 472px;
+}
+.ex-img{
+    height: 364px;
+    width: 840px;
+    border-radius: 48px;
+    margin-left: 150px;
+}
 /* form */
 .form-title{
     font-size: 97px;
@@ -192,7 +220,7 @@ textarea{
     justify-content: space-around;
     align-items: center;
     margin-left: 150px;
-    margin-top: 100px;
+    margin-top: 70px;
     background-color: #eceff8;
     border-radius: 15px;
     box-shadow: 10px 10px 10px 10px #D6DDED;
