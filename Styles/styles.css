@@ -199,3 +199,41 @@ textarea{
     padding-left: 15px;
     padding-right: 15px;
 }
+/* footer section style */
+.foot-title{
+    font-size: 100px;
+    font-weight: 900;
+    color: #4E47FF;
+    text-align: center;
+}
+.foot-des{
+    font-size: 16px;
+    font-weight: 400;
+    color: #8987A1;
+    text-align: center;
+    height: 48px;
+    width: 531px;
+    margin-left: 480px;
+}
+.foot-un{
+    list-style: none;
+    margin-left: 510px;
+}
+.foot-un li{
+    display: inline;
+}
+.foot-un li a{
+    text-decoration: none;
+    color: #8987A1;
+    padding-right: 48px;
+}
+footer{
+    height: 350px;
+}
+.nav-btn:hover{
+    background-color: rgb(112, 107, 100);
+}
+a:hover{
+    background-color: #d2c8c8d4;
+    border-radius: 3px;
+}
